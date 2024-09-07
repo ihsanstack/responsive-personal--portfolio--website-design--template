@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ihsanstack.com - Responsive Personal Portfolio Website</title>
+  <link rel="stylesheet" href="personal.css" />
+  <script src="https://kit.fontawesome.com/e259d85fca.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <h1 class="logo">
+          <a href="#">Ihsan<span style="font-weight: 500; color: #fff">Stack</span></a>
+        </h1>
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark"></i>
+        </ul>
+        <i class="fa-solid fa-bars"></i>
+      </nav>
+      <div class="header-text">
+        <p>MERN Stack Developer</p>
+        <h1>
+          Hi, I'm <span style="color: #ff004f; font-weight: 600">Ihsan</span><br />from Afghanistan
+        </h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- ----------------------------------- About -->
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/ihsan-1.webp" alt="user photo" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>
+            I'm Ihsan Ullah, a passionate MERN Stack Developer with a strong
+            foundation in front-end and back-end technologies. I specialize in
+            building responsive, user-friendly web applications using tools
+            like HTML, CSS, JavaScript, React, Node.js, and MongoDB. I'm
+            committed to creating clean, efficient code while continuously
+            learning and improving my skills.
+          </p>
+          <div class="tab-title">
+            <p class="tab-links active-link" data-target="skills">Skills</p>
+            <p class="tab-links" data-target="experience">Experience</p>
+            <p class="tab-links" data-target="education">Education</p>
+          </div>
+
+          <!-- ------------------------------ Skill -->
+
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li>
+                <span>Front-End Development:</span><br />HTML, CSS,
+                JavaScript, React, Tailwind CSS, Bootstrap
+              </li>
+              <li>
+                <span>Back-End Development:</span><br />Node.js, Express.js
+              </li>
+              <li><span>Database Management:</span><br />MongoDB</li>
+              <li><span>Version Control:</span><br />Git, GitHub</li>
+              <li><span>Tools & Libraries:</span><br />NPM, Webpack</li>
+              <li>
+                <span>Responsive Design:</span><br />Mobile-First Design,
+                Cross-Browser Compatibility
+              </li>
+            </ul>
+          </div>
+
+          <!-- ------------------------------ Experience -->
+
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li>
+                <span>Project Lead - University of Haripur</span><br />Led a
+                team to create a full-stack web application using React,
+                Node.js, and MongoDB as part of a university project.
+              </li>
+              <li>
+                <span>Freelance - Full-Stack Developer</span><br />Built and
+                deployed multiple full-stack web apps, ensuring responsive
+                design and cross-browser compatibility.
+              </li>
+              <li>
+                <span>Open Source Contributor</span><br />Contributed to
+                various open-source projects on GitHub, focusing on web
+                development and bug fixes.
+              </li>
+              <li>
+                <span>Web Developer Intern - Microsoft</span><br />Worked on
+                front-end and back-end tasks, including building web apps with
+                Node.js, Express.js, and MongoDB.
+              </li>
+              <li>
+                <span>Front-End Developer - Freelance</span><br />Developed
+                responsive web interfaces using HTML, CSS, JavaScript, and
+                React.
+              </li>
+            </ul>
+          </div>
+
+          <!-- ------------------------------ Education -->
+
+          <div class="tab-contents" id="education">
+            <ul>
+              <li>
+                <span>Matric - 2020</span><br />Govt Boys High School, Dheri
+                Naqarchian - Computer Science
+              </li>
+              <li>
+                <span>Intermediate - 2022</span><br />Hazara School & College,
+                Ghazi - Computer Science
+              </li>
+              <li>
+                <span>Bachelor's (BS-CS)</span><br />University of Haripur -
+                Computer Science (Ongoing)
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ----------------------------------- Services -->
+
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>MERN Stack</h2>
+          <p>
+            I develop dynamic and scalable web applications using the MERN
+            stack (MongoDB, Express, React, and Node.js). From front-end user
+            interfaces to back-end server operations.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop"></i>
+          <h2>UI/UX Design</h2>
+          <p>
+            With a focus on user-centered design principles, I create
+            intuitive and visually stunning interfaces that prioritize
+            usability.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2>App Design</h2>
+          <p>
+            Specializing in both Android and iOS platforms, I design mobile
+            apps that are not only visually engaging but also highly
+            functional.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ----------------------------------- Portfolio -->
+
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/work-2.jpg" />
+          <div class="layer">
+            <h3>Coding Maestro</h3>
+            <p>
+              A focused programmer working on a complex project, their
+              dedication evident in their posture and the glow of the screen.
+            </p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-3.jpg" />
+          <div class="layer">
+            <h3>A Programmer's Haven</h3>
+            <p>
+              A focused programmer, lost in the world of code, crafting
+              digital solutions with precision and dedication.
+            </p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-4.jpg" />
+          <div class="layer">
+            <h3>The Figma Journey</h3>
+            <p>
+              A laptop screen showcases Figma, a powerful tool for turning
+              ideas into stunning digital products.
+            </p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+
+  <!-- ----------------------------------- Contact -->
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i> ihsan4180@gmail.com</p>
+          <p><i class="fa-solid fa-square-phone-flip"></i> 00923011903558</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/Ihsan.Jabarkhail.121"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="https://www.instagram.com/ig_ehsan/"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="" class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Enter your full name" required />
+            <input type="email" name="Email" placeholder="Enter your email" required />
+            <textarea name="Message" rows="6" placeholder="Enter message here..."></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>
+        Copyright &copy; Ihsan. Made with <i class="fa-solid fa-heart"></i> by
+        Ihsan Ullah
+      </p>
+    </div>
+  </div>
+  <script src="personal.js"></script>
+</body>
+
+</html>
